@@ -48,7 +48,7 @@ boxes.forEach((box)=>{
         if(pos1!="" && pos2!="" && pos3!=""){
             if(pos1===pos2 && pos2===pos3 && pos3===pos1){
                 let winner=document.querySelector(".winner");
-                winner.innerText= `CONGRATS THE WINNER IS ${pos1} !!!!`;
+                winner.innerText= `CONGRATS THE WINNER IS : "${pos1}"!!!!`;
 
               disable();
                 
@@ -56,5 +56,6 @@ boxes.forEach((box)=>{
         }
       }
     }
+
 
 });
